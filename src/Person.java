@@ -6,7 +6,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public void info(){
-        System.out.printf("%s %s", this.firstName, this.lastName);
+    public String  info(){
+        return String.format("%s %s", this.firstName, this.lastName);
     }
 }
